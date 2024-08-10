@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    height: 700px;
+    width: 450px;
+    border: 4 px solid black;
+    background-color: red;
+    margin-left: 35%;
+    margin-top: 5px;
+}
+.child1{
+    height: 10%;
+    background-color: rgb(245,248,245);
+    display: flex;
+}
+.child2{
+    height: 80%;
+    background-color: rgb(217, 224, 217);
+    position: relative;
+}
+.child3{
+    display: flex;
+    height: 10%;
+    background-color: rgb(245,248,245);
+}
+.profile{
+    
+    border-radius: 50%;
+}
+
+.name{
+    color: rgb(166,166,164);
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.icon{
+    margin-left: 30px;
+    border-radius: 50%;
+    height: 60%;
+    margin-top: 15px;
+}
+
+.left{
+    height: 30px;
+    margin-bottom: 60px;
+}
+
+.right{
+    height: 30px;
+    margin-bottom: 60px;
+}
+
+.pright2{
+    position: absolute;
+    right:0;
+    width: 300px;
+    background-color: rgb(93, 49, 249);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.pright1{
+    position: absolute;
+    right:0;
+    width: 50px;
+    background-color: rgb(93, 49, 249);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+.pleft1{
+    position: absolute;
+    left:0;
+    width: 50px;
+    background-color: rgb(93, 49, 249);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.pleft2{
+    position: absolute;
+    left:0;
+    width: 200px;
+    background-color: rgb(93, 49, 249);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.pleft3{
+    position: absolute;
+    left:0;
+    background-color: rgb(93, 49, 249);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.msg{
+    width: 70%;
+    height: 100%;
+}
+
+
+#triangle{
+    font-size: 40px;
+}
+
+#icon1{
+    font-size: 50px;
+}
+#icon2{
+    font-size: 50px;
+}
