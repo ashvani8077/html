@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dark-mode {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+body{
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    min-height: 100vh;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: s;
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(228, 188, 57);
+    border-radius: 5%;
+}
