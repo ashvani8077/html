@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.parent{
+    /* border-radius: 50% 10% / 10% 50%; */
+    margin-left: 30px;
+    margin-top: 20px;
+    /* border: 5px solid red; */
+    height: 500px;
+    width: 800px;
+    /* background: url(https://c4.wallpaperflare.com/wallpaper/698/917/306/minimalism-simple-blue-gradient-wallpaper-preview.jpg); */
+    background: linear-gradient(#0015ff, #000000);
+     /* background-image:
+                    linear-gradient(to right, grey 1px, transparent 1px),
+                    linear-gradient(to bottom, grey 1px, transparent 1px); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+tr{
+    text-align: center;
+    vertical-align: middle;
+}
+
+td{
+    padding: 20px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #007bff;
+    padding: 5px;
+    border-radius: 50% 10% / 10% 50%;
+    /* border-top-left-radius: 0;
+    border-bottom-left-radius:25%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 0; */
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+a:hover{
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    border: 2px solid red;
+}

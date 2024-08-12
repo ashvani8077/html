@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+.bg-img{
+    background: url(https://cdn.britannica.com/80/150980-050-84B9202C/Giant-panda-cub-branch.jpg);
+    height: 1000px;
+    width: 1000px;
+    background-color: red;
+    border: 3px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+}
+
+[target]::after{
+    content: "";
+    display: inline-block;
+    color: yellow;
+    width: 20px;
+    height: 20px;
+    background: url(./newtab.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto 5px;
+}
 .parent{
     position: relative;
     height: 445px;

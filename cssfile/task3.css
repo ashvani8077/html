@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 300px;
+    margin-top: 50px;
+    color: white;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: skyblue;
+}
+
+p{
+    padding: 30px;
+}
+
+h1{
+    color: rgb(58, 153, 190);
+}
+
+button:hover{
+    background-color:  rgb(58, 153, 190);
+    color: yellow;
+    cursor: pointer;
+}
+
+.button1{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width:60%;
+}

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    height: 800px;
+    width: 1200px;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 10%;
+    padding: 5%;
+    border: 2px solid red;
+
+}
+
+.child1{
+    padding: 30px;
+    height: 80%;
+    width: 50%;
+}
+
+.child2{
+    padding: 30px;
+    height: 80%;
+    width: 50%;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+tr{
+    text-align: center;
+    vertical-align: middle;
+}
+
+
