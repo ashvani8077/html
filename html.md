@@ -50,3 +50,42 @@
   - Student 1
   - Student 2
   
+
+![Resize the screen](./note.png "Working with Responsive Website")
+
+
+# Naming Convetion
+
+- hyphen-case
+    - Css Property
+    - Url
+- camerlCase
+- snake_case / underscore_case
+- PascalCase
+- lowercase
+- UPPERCASE
+
+# Content
+-Title Case / Sentence Case
+
+
+
+# JSON
+- ""-> String "name":"joy"
+- []-> Array "name": ["joy", "joe"]
+- {}-> Obj
+
+# TRUTHY
+- if (true)
+- if ({})
+- if ([])
+- if (42)
+- if ("0")
+- if ("false")
+- if (new Date())
+- if (-42)
+- if (12n)
+- if (3.14)
+- if (-3.14)
+- if (Infinity)
+- if (-Infinity)
