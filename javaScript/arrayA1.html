@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Arrays</h1>
+    <script>
+        let arr=[
+            1,2,3,4,5,6,7,8,9,10
+        ]
+        console.log(arr)
+        console.log(arr[0])
+        console.log(arr[0])
+
+
+        //loop
+        for(let i=0;i<arr.length;i++){
+            console.log("Index: ",i,"Value: ", arr[i])
+        }
+
+
+        //map function
+
+        const newArr = arr.map((value) => {
+            return value*2;
+        });
+
+        console.log("newArray", newArr);
+
+        //filter function
+        const evenNumber=arr.filter((number)=>number%2==0)
+        console.log("evenNumber", evenNumber);
+
+        // join function
+        console.log(evenNumber.join('@'))
+
+        // concat concatination
+        console.log(evenNumber.concat(arr))
+
+
+        // flat concated sub array to a new single line array
+        const myArr = [1, 2, [3, [4, 5, 6], 7], 8];
+        const nArr = myArr.flat(0);
+        console.log(nArr)
+        // slice
+        console.log("Slice")
+        console.log(newArr.slice(0,3))
+
+        // forEach
+        console.log("forEach Loop")
+        arr.forEach(element => {
+            console.log(element)
+        });
+
+
+        // push
+        console.log("push")
+        arr.push(11)
+        console.log(arr)
+
+
+        // pop [remove element form last]
+        console.log("pop")
+        arr.pop()
+        console.log(arr)
+
+
+        // shift [remove element form starting]
+        console.log("shift")
+        arr.shift()
+        console.log(arr)
+
+
+        // sort
+        console.log("Before sorting")
+        let sArr=[
+            2,6,2,3,7,32,0,3,7,4
+        ]
+        console.log(sArr)
+        console.log("After sorting")
+        let saArr=sArr.sort()
+        console.log(saArr)
+
+        // fill
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        console.log("Before")
+        console.log(fruits)
+        fruits.fill("kiwi",1,2)
+        console.log(fruits)
+
+        // find
+        console.log("Find")
+        const numbers = [4, 9, 16, 25, 29];
+        const result = numbers.find(element => element > 20);
+        console.log(result);
+
+        // findIndex
+        console.log("findIndex")
+        const fInd=arr.findIndex((element)=> element>3)
+        console.log(fInd)
+
+
+        //indexOf
+        
+        console.log(arr.indexOf(4))
+        //some
+
+
+        //every
+        console.log("Every")
+        const ages = [32, 33, 16, 40];
+        function checkAge(age) {
+        return age > 18;
+        }
+        console.log(ages.every(checkAge))
+
+
+        //include
+
+ </script>
+
+</body>
+</html>
+
+
+
+
+<!-- document.getElementById("demo").innerHTML = getElementById("hii");
+ -->

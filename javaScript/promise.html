@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promise, async-await</title>
+  </head>
+  <body>
+    <div class="loading">Loading</div>
+    <div class="posts"></div>
+    <script>
+      //promise
+      // const promise=new Promise((resolve, reject)=>{
+      //     const isSuccessfull=true;
+      //     if(isSuccessfull){
+      //         resolve("Promise is resolved");
+      //     }
+      //     else{
+      //         reject("Promise is rejected")
+      //     }
+      // });
+
+      // promise
+      // .then((message)=>{
+      //     console.log("message",message);
+      // })
+      // .catch((error)=>{
+      //     console.log("error",error)
+      // });
+
+      //async-await
+      async function fetchData() {
+        //loading
+        document.querySelector
+
+        console.log("Fetching data")
+        const response = await fetch(
+          "https://jsonplaceholder.typicode.com/posts"
+        );
+        console.log("fetchData", response);
+        const posts = await response.json();
+        console.log("posts", posts);
+        
+        posts.map((post)=>{
+            const postElement=document.createElement("div");
+
+        })
+      }
+      fetchData();
+    </script>
+  </body>
+</html>

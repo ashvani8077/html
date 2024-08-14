@@ -1,30 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <br>
+  </head>
+  <body>
+    <br />
     <div class="banner">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deleniti doloremque officiis quisquam nisi. Inventore, sint temporibus saepe aut aspernatur alias ad? Quidem aperiam, eos totam tempora neque atque repudiandae.</p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC4tAahBBN-14dqNlv6B9XTZ_DDgt8zKg99g&s" alt="">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum deleniti
+        doloremque officiis quisquam nisi. Inventore, sint temporibus saepe aut
+        aspernatur alias ad? Quidem aperiam, eos totam tempora neque atque
+        repudiandae.
+      </p>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC4tAahBBN-14dqNlv6B9XTZ_DDgt8zKg99g&s"
+        alt=""
+      />
+    </div>
+    <div>
+        <h1>My Resume</h1>
+        <pre id="resume"></pre>
     </div>
 
     <!--Script-->
     <script>
-        console.log("Demo Of javaScript")
-        const amount=20;
-        console.log("Amount",amount )
-        const name=[
-            "User1","user2","user3",{"key1":"value1"},"user4",{"key2":"value2"}
-        ]
-        console.log(name[0])
-        console.log(name[3])
-        console.log(name[5].key2)
+      console.log("Demo Of javaScript");
+      const amount = 20;
+      console.log("Amount", amount);
+      const name = [
+        "User1",
+        "user2",
+        "user3",
+        { key1: "value1" },
+        "user4",
+        { key2: "value2" },
+      ];
+      console.log(name[0]);
+      console.log(name[3]);
+      console.log(name[5].key2);
+
+      const resume = {
+        "_id": "1232",
+        "fullName": "Ashvani Sharma",
+        "dob": "21/11/2005",
+        "email": "ashvani.sharma_cs22@gla.ac.in",
+        "contactNumbers": [
+          {
+            "type": "mobile",
+            "label": "Primary Contact Number",
+            "value": "8077719863",
+          },
+
+          {
+            "type": "mobile",
+            "label": "Secondary Contact Number",
+            "value": "8171681297",
+          },
+        ],
+        "currentAddress": {
+          "onlineAddress": "Saket Colony, Hathras, Uttar Pradesh, India-204101",
+          "Line1": "Gali No.7 Saket Colony",
+          "Line2": "Chachpur Arjunpur, Hathras",
+          "cityName": "Hathras",
+          "stateName": "Uttar Pradesh",
+          "countryName": "India",
+          "picCode": 204101,
+        },
+        "qualification": {
+          "degree": "Bachelor of Technology",
+          "specialization": "Computer Science",
+          "university": "GLA University Mathura",
+          "yearOfPassing": 2026,
+          "percentage": 75,
+        },
+        "experiences": 0,
+        "skills": ["C", "Python", "Java", "HTML", "CSS"],
+      }
+      console.log(resume.fullName)
+      console.log(resume["email"])
+      console.log(resume.contactNumbers[0].value)
+      console.log(resume["contactNumbers"][0]["value"])
+      const resumePreTag=document.getElementById("resume")
+      resumePreTag.innerText=JSON.stringify(resume,null,2)
+      let mo=resume.contactNumbers[0].value
+      console.log(innerHTML=Date())
+      console.log(mo)
     </script>
-</body>
+  </body>
 </html>
-
-
