@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse </title>
+</head>
+<body>
+    <h1>Mouse Moving</h1>
+    <div id="mouse-events"></div>
+    <div id="mouse-positions"></div>
+    <div id="mouse-click"></div>
+    <div id="mouse-double-click"></div>
+    <div id="mouse-down"></div>
+    <div id="mouse-up"></div>
+    <div id="mouse-over"></div>
+    <div id="mouse-out"></div>
+    <div id="mouse-move"></div>
+
+
+    <script>
+        const mouseEvent=document.getElementById("mouse-events")
+        const mousePosition=document.getElementById("mouse-positions")
+        const mouseClick=document.getElementById("mouse-click")
+        const mouseDoubleClick=document.getElementById("mouse-double-click")
+        const mouseDown=document.getElementById("mouse-down")
+        const mouseUp=document.getElementById("mouse-up")
+        const mouseOver=document.getElementById("mouse-over")
+        const mouseOut=document.getElementById("mouse-out")
+        const mouseMove=document.getElementById("mouse-move")
+
+
+        mouseEvent.addEventListener("mousemove",(event)=>{
+            mousePosition.textContent=`Mouse Position: ${event.clientX},${event.clientY}`
+        });
+    </script>
+</body>
+</html>
