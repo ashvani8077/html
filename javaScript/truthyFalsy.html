@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Turthy And Falsy</h1>
+    <script>
+      //Conditionals
+      let value = 1;
+
+      if (value) {
+        console.log("This is truthy");
+      } else {
+        console.log("This is falsy");
+      }
+
+      //OR operator
+      let name = "";
+      let defaultName = "Anonymous";
+
+      let displayName = name || defaultName;
+      console.log(displayName);
+
+      //AND operator
+      let isLoggedIn = true;
+      let userRole = "Admin";
+
+      let role = isLoggedIn && userRole;
+      console.log(role);
+    </script>
+  </body>
+</html>
