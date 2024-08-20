@@ -1,0 +1,42 @@
+const resume = {
+    "_id": "1232",
+    "fullName": "Ashvani Sharma",
+    "dob": "21/11/2005",
+    "email": "ashvani.sharma_cs22@gla.ac.in",
+    "contactNumbers": [
+        {
+            "type": "mobile",
+            "label": "Primary Contact Number",
+            "value": "8077719863",
+        },
+        {
+            "type": "mobile",
+            "label": "Secondary Contact Number",
+            "value": "8171681297",
+        },
+    ],
+    "currentAddress": {
+        "onlineAddress": "Saket Colony, Hathras, Uttar Pradesh, India-204101",
+        "Line1": "Gali No.7 Saket Colony",
+        "Line2": "Chachpur Arjunpur, Hathras",
+        "cityName": "Hathras",
+        "stateName": "Uttar Pradesh",
+        "countryName": "India",
+        "picCode": 204101,
+    },
+    "qualification": {
+        "degree": "Bachelor of Technology",
+        "specialization": "Computer Science",
+        "university": "GLA University Mathura",
+        "yearOfPassing": 2026,
+        "percentage": 75,
+    },
+    "experiences": 0,
+    "skills": [
+        "C",
+        "Python",
+        "Java",
+        "HTML",
+        "CSS"
+    ],
+}
