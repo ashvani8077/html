@@ -24,12 +24,12 @@ consoleTable.addEventListener('click', ()=>{
     ])
 })
 
-// error.addEventListener('click',()=>{
-//     console.log("This is going to throw an error")
-//     const v=document.getElementById('design')
-//     const a=v.innerHTML
-//     console.log(a)
-// })
+error.addEventListener('click',()=>{
+    console.log("This is going to throw an error")
+    const v=document.getElementById('design')
+    const a=v.innerHTML
+    console.log(a)
+})
 
 
 console.log(3+2);

@@ -18,42 +18,42 @@ body {
 
 header {
     grid-area: header;
-    background-color: lightblue;
+    color: lightblue;
     padding: 20px;
     text-align: center;
 }
 
 nav {
     grid-area: nav;
-    background-color: lightgreen;
+    color: lightgreen;
     padding: 15px;
     text-align: center;
 }
 
 section {
     grid-area: section;
-    background-color: lightcoral;
+    color: lightcoral;
     padding: 15px;
     text-align: center;
 }
 
 aside {
     grid-area: aside;
-    background-color: lightgoldenrodyellow;
+    color: lightgoldenrodyellow;
     padding: 15px;
     text-align: center;
 }
 
 article {
     grid-area: article;
-    background-color: lightpink;
+    color: lightpink;
     padding: 15px;
     text-align: center;
 }
 
 footer {
     grid-area: footer;
-    background-color: lightgrey;
+    color: lightgrey;
     padding: 20px;
     text-align: center;
 }
