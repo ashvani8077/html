@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        h1{
-            color: black;
-        }
-        @media (orientation:landscape) {
-            h1{
-                color: green;
-            }
-        }
+      .cl {
+        height: 500px;
+        width: 500px;
+        background-color: red;
+      }
     </style>
-</head>
-<body>
-    <h1>
-        Hii
-    </h1>
-</body>
+  </head>
+  <body>
+    <script>
+              const city = {
+
+                        "name": 'Mumbai',
+                        "state": 'Maharashtra',
+                        "population": 12442373,
+                        "landmarks": ['Gateway of India', 'Marine Drive', 'Chhatrapati',  'Shivaji Maharaj Terminus']
+                     };
+        console.log(city)
+        const ch=JSON.stringify(city)
+        console.log(ch);
+    </script>
+  </body>
 </html>
