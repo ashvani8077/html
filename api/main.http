@@ -1,0 +1,5 @@
+### Test GET request to the root endpoint
+GET http://127.0.0.1:5000/
+Accept: application/json
+
+ 
